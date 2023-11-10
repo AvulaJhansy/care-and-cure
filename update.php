@@ -36,7 +36,7 @@ if (isset($_POST['update_data'])) {
         // Use JavaScript to show an alert and redirect to the welcome page
         echo "<script>
             alert('Data updated successfully for tablet: $tabletname');
-            window.location.href = 'welcome.html'; // Replace 'welcome.php' with the actual welcome page URL
+            window.location.href = 'index.html'; // Replace 'welcome.php' with the actual welcome page URL
         </script>";
     } else {
         // Use JavaScript to show an alert for the error
